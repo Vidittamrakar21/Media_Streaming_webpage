@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.streamy.in</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/search.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/home-alt.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/menu.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/user.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/add-r.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/cast.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/games.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/software-download.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/log-off.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/close.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/play-button.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" media="screen and (max-width: 839px)" href="phone.css">
+   
+</head>
+<body>
+    <section id="home">
+        <div class="slides">
+    <img src="./images/img3.webp" alt="">
+</div>
+        <div class="slides"> 
+       <img src="./images/img11.webp" alt="">
+    </div>
+    <div class="slides">
+        <img src="./images/img7.jpg" alt="">
+    </div>
+    <div class="slides">
+        <img src="./images/img8.webp" alt="">
+    </div>
+    <div class="slides">
+        <img src="./images/img9.jpg" alt="">
+    </div>
+    <div class="slides">
+        <img src="./images/img10.webp" alt="">
+    </div>
+
+    <span class="arrow prev" onclick="control(-1)">&#10094;</span>
+    <span class="arrow next" onclick="control(+1)">&#10095;</span>
+</section>
+  
+      <header>
+          <div class="logo">
+              <img src="/images/logo.png" alt="">
+            </div>
+            <div class="nav">
+            <ul>
+                <i class="gg-home-alt active o"></i>
+                <li><a href="#">Shows</a>
+                    <div class="sub">
+                        <ul>
+                            <li>Documentary</li>
+                            <li>Drama</li>
+                            <li>Science Fiction</li>
+                        <li>Romantic</li>
+                    </ul>
+                </div>
+                
+            </li>
+                <li><a href="#movie">Movies</a>
+                    <div class="sub2">
+                        <ul>
+                            <li>Action</li>
+                            <li>Drama</li>
+                            <li>Science Fiction</li>
+                            <li>Horror</li>
+                            <li>Romance</li>
+                            <li>Thriller</li>
+                            <li>Biographical</li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#series">Web Series</a></li>
+                <li><a href="#sports">Sports</a>
+                    <div class="sub3">
+                        <ul>
+                            <li>Air sports</li>
+                            <li>Motorsports</li>
+                            <li>Mind sports</li>
+                            <li>Combat Sports</li>
+                            <li>Ball sports</li>
+                            <li>Gymnastics</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="box">
+            <div class="icon">
+                <i class="gg-search"></i>      
+            </div>
+            <div class="search">
+                
+                <input type="search" placeholder="Search for movies,shows,w-series">
+                
+            </div>
+            
+            <div class="user">
+                
+                <i class="gg-user"></i>
+                
+            </div>
+            
+            <div class="menu" onclick="but()">
+                <i class="gg-menu"></i>
+                
+            </div>
+            
+        </div>
+    </div>
+</header> 
+
+    <div id="sidebar">
+        <div class="close" onclick="cut()">
+            <i class="gg-close"></i>
+        </div>
+        <ul class="menu">
+          <li><i class="gg-add-r t"></i><a href="#">My List</a></li>
+          <li><i class="gg-cast t"></i><a href="#">Activate TV</a></li>
+          <li><i class="gg-games t"></i><a href="#">Kids Mode</a></li>
+          <li><i class="gg-software-download t"></i><a href="#"></i>Downloads</a></li>
+          <li><i class="gg-log-off t"></i><a href="#">Sign out</a></li>
+        </ul>
+    </div>
+
+    <div class="play">
+        <button id="right">&#9654; Play</button>
+        <button id="more">More Info</button>
+    </div>
+    <script src="script.js"></script>
+
+    <section id="movie">
+        <h2>Movies</h2>
+        <hr>
+        <div class="dib">
+            
+            <div class="cont">
+                <img src="images/img33.jpg" alt="">
+                Brahmastra | Mythological | 152min
+            </div>
+            <div class="cont">
+                <img src="images/img35.webp" alt="">
+                 Bhool Bhulaiyaa 2 | Horror Comedy | 186min
+            </div>
+            <div class="cont">
+                <img src="images/img34.jpg" alt="">
+                 URI | Action | 162min
+            </div>
+            <div class="cont">
+                <img src="images/img22.jpg" alt="">
+                Dangal | Action | 153min
+            </div>
+            <div class="cont">
+                <img src="images/img24.jpg" alt="">
+                 PK | Comedy | 114min
+            </div>
+            <div class="cont">
+                <img src="images/img25.jpg" alt="">
+                 Baaghi 3 | Action | 140min
+            </div>
+            <div class="cont">
+                <img src="images/img26.jpg" alt="">
+                 Radhe | Action | 180min
+            </div>
+            <div class="cont">
+                <img src="images/img27.jpg" alt="">
+                 Mohenjo Daro | Historical | 172min
+            </div>
+            <div class="cont">
+                <img src="images/img28.jpg" alt="">
+                 Bajirao Mastani | Historical | 140min
+            </div>
+            <div class="cont">
+                <img src="images/img30.jpg" alt="">
+                 Raees | Crime Thriller | 152min
+            </div>
+            <div class="cont">
+                <img src="images/img31.jpg" alt="">
+                 Bhaag Milkha Bhaag | Biographical | 189min
+            </div>
+            <div class="cont">
+                <img src="images/img32.jpg" alt="">
+                 Drishyam | Thriller | 190min
+            </div>
+            <div class="cont">
+                <img src="images/img20.jpg" alt="">
+                Barfi | Romantic Comedy | 152min
+            </div>
+            <div class="cont">
+                <img src="images/img21.jpg" alt="">
+                Desi Boyz | Romantic Comedy | 186min
+            </div>
+            <div class="cont">
+                <img src="images/img23.jpg" alt="">
+                Dabang | Action Comedy | 160min
+            </div>
+        </div>
+        </section>
+
+        <section id="series">
+            <h2>Web Series</h2>
+            <hr>
+            <div class="my">
+
+                <div class="web">
+                    <img src="images/img41.webp" alt="">
+                    Aashram | Crime Drama | 6 Episodes
+                </div>
+                <div class="web">
+                    <img src="images/img42.webp" alt="">
+                    Aspirants | 8 Episodes
+                </div>
+                <div class="web">
+                    <img src="images/img43.jpg" alt="">
+                    Kota Factory | 10 Episodes
+                </div>
+                <div class="web">
+                    <img src="images/img44.jpg" alt="">
+                    Mumbai Diaries | Action historical | 7 Episodes
+                </div>
+                <div class="web">
+                    <img src="images/img45.jpg" alt="">
+                    Panchayat | comedy Drama | 8 Episodes
+                </div>
+                <div class="web">
+                    <img src="images/img46.jpg" alt="">
+                    Gangs Of Wasseypur | Thriller | 9 Episodes
+                </div>
+                
+            </div>
+
+            <button id="fut">More &gt;</button>
+        </section>
+
+        <sectiom id="sports">
+            <h2>Sports</h2>
+            <hr>
+            <div class="my">
+
+                <div class="web">
+                    <img src="images/img51.jpg" alt="">
+                        Cricket
+                </div>
+                <div class="web">
+                    <img src="images/img52.jpeg" alt="">
+                       Footballl
+                </div>
+                <div class="web">
+                    <img src="images/img53.jpg" alt="">
+                        Hockey
+                </div>
+                <div class="web">
+                    <img src="images/img54.jpg" alt="">
+                        Formula E
+                </div>
+                <div class="web">
+                    <img src="images/img55.webp" alt="">
+                         Tennis
+                </div>
+                <div class="web">
+                    <img src="images/img56.jpeg" alt="">
+                          Boxing
+                </div>
+                
+            </div>
+
+            <button id="fut">More &gt;</button>
+            <br>
+            <br>
+            <br>
+            <br>
+            <hr>
+        </sectiom> 
+        
+        <section id="bottom">
+            <div class="right">
+                <div class="copy">
+                    <img src="images/logo.png" alt="">
+                    <p>streamy is your one stop destination for all your entertainmet such as latest <br>movies, shows ,web series, sports etc</p>
+                    <h3>Follow us for update</h3>
+                    <i class="fa fa-linkedin-square k" style="font-size:36px"></i>
+                    <i class="fa fa-github k" style="font-size:36px"></i>
+                    <i class="fa fa-twitter k" style="font-size:36px"></i>
+                    <i class="fa fa-instagram k" style="font-size:36px"></i>
+                    <i class="fa fa-facebook-f k" style="font-size:36px"></i>
+
+                </div>
+                <div class="privacy">
+                    <h4>Company</h4>
+                    <Ul class="u">
+                        <li>About Us</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms of Services</li>
+                        <li>Content Complaints</li>
+                        <li>Contact Us</li>
+                    </Ul>
+                </div>
+                <div class="apple">
+                    <div>
+
+                        <h4>Install Our Mobile App for Better Experience </h4>
+                        <p>Scan this QR code and you’ll <br> prompt a download link </p>
+                        <div>
+                            <h4>
+                                App Available On
+                            </h4> 
+                            Google PlayStore  &
+                            
+                            <i class="fa fa-apple" style="font-size:36px"></i>
+                        </div>
+                    </div>
+                    <div class="photu">
+
+                        <img src="images/playstore.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+            <hr class="foot">
+          
+            <div class="tat">
+
+                <center>
+                <div class="center">
+                    Copyright &copy; 2023 www.streamy.in | All rights reserved!
+                </div>
+                    Made with <span style="color: #e25555">❤</span> by Vidit Tamrakar.
+                </center>
+            </div>
+            
+        </section>
+      
+
+</body>
+</html>
