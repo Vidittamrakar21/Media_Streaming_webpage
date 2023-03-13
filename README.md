@@ -15,3 +15,12 @@ It's a fully responsive page ,this is how it looks in your phone!!
 
 ![CYMERA_20230313_024145](https://user-images.githubusercontent.com/114985411/224768722-184d02fe-ae3c-4174-b17e-615054cf3282.jpg)
 ![CYMERA_20230313_024905](https://user-images.githubusercontent.com/114985411/224768802-e2e0be4e-f76e-4811-92e7-0cec9213f8a2.jpg)
+
+
+you can view this page by clicking on the following link :
+ https://vidittamrakar21.github.io/Media_Streaming_webpage/
+ 
+ PS (Open it in desktop for better experience)
+
+# Made with <span style="color: #e25555">❤</span> by Vidit Tamrakar
+ 
