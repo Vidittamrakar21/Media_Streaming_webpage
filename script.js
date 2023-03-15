@@ -36,3 +36,11 @@ function cut() {
 
   dis.style.display = "none";
 }
+
+function pop() {
+  alert(
+    "We use cookies to personalize your experience. By continuing to visit this website you agree to our use of cookies."
+  );
+  
+}
+setTimeout(pop, 5000);
