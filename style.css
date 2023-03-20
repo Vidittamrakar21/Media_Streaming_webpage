@@ -363,7 +363,7 @@ hr {
  background-image: linear-gradient(to bottom,  rgb(4, 82, 193) , rgb(194, 20, 151));
   opacity: 0.8;
   border-radius: 15px;
-  box-shadow: 4px 6px 12px rgb(194, 20, 151) inset;
+  
 }
 
 #fut:hover {
