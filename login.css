@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+body {
+    color: white;
+    background-image: url(images/sign.png);
+    background-position: cover;
+    background-repeat: no-repeat;   
+  font-family: 'Roboto', sans-serif;
+}
+
+.cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+  background-color: rgba(66, 65, 65, 0.54);
+  border: 1px solid rgba(192, 192, 192, 0.725);
+  height: 350px;
+  width: 300px;
+}
+#put {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input {
+  margin-bottom: 30px;
+  height: 30px;
+  width: 200px;
+  border: none;
+  border-radius: 12px;
+  text-align: center;
+}
+input::placeholder {
+  color: rgb(253, 74, 71);
+  font-size: 16px;
+}
+
+h2 {
+  color: rgb(253, 74, 71);
+}
+h3 {
+  font-size: 21px;
+}
+.box img {
+  width: 100px;
+  height: 100px;
+}
+
+.login button {
+  height: 35px;
+  width: 150px;
+  font-size: 16px;
+  background-color: rgb(157, 68, 240);
+  border: none;
+  border-radius: 12px;
+  margin-top: 30px;
+  margin-left: 25px;
+  color: white;
+}
+.login button:hover {
+  background-color: rgb(147, 47, 240);
+  cursor: pointer;
+}
+
+.login button a {
+  text-decoration: none;
+}
+
+#lg{
+    color: rgb(200, 199, 199);
+    text-decoration: none;
+    margin-top: 25px;
+    margin-left: -20px;
+}
+
+#lg:hover{
+
+   color:  rgb(252, 59, 56);
+    
+}
