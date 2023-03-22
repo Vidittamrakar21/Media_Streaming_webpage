@@ -134,6 +134,11 @@ li {
   margin: 19px;
 }
 
+.user a{
+  color: white;
+  text-decoration: none;
+}
+
 .menu {
   padding: 5px;
   margin: 9px;
