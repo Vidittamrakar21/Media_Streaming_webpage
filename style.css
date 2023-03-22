@@ -139,6 +139,10 @@ li {
   text-decoration: none;
 }
 
+.user a:hover {
+  color: rgb(253, 74, 71);
+}
+
 .menu {
   padding: 5px;
   margin: 9px;
