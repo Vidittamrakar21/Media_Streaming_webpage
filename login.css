@@ -30,7 +30,7 @@ body {
   flex-direction: column;
   background-color: rgba(66, 65, 65, 0.54);
   border: 1px solid rgba(192, 192, 192, 0.725);
-  height: 350px;
+ height: 380px;
   width: 300px;
 }
 #put {
