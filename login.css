@@ -96,3 +96,19 @@ h3 {
    color:  rgb(252, 59, 56);
     
 }
+
+#ckbox{
+  display: flex;
+  margin-left: -120px;
+}
+
+#check{
+  width: 15x;
+  height: 15px;
+  margin-top: 20px;
+}
+
+h5{
+  margin-left: -90px;
+  color: rgba(209, 214, 212, 0.742);
+}
