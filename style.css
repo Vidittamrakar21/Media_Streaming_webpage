@@ -240,7 +240,7 @@ li {
   top: 45%;
   padding: 8px 18px;
   font-size: 55px;
-  color: rgba(255, 254, 254, 0.745);
+  color: rgb(245, 245, 245);
 }
 .arrow:hover {
   color: rgba(142, 142, 142, 0.6);
