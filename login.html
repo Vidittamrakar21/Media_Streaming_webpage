@@ -35,6 +35,32 @@
 </div>
 </section>
     
+    <script>
+
+  function success(){
+
+    let email = document.getElementById("mail").value;
+    let pass = document.getElementById("pass").value;
+    
+    if(email === "" && pass === ""){
+      alert("kindly fill the required details to login")
+    }
+    else if(email === "" || pass === ""){
+      alert("kindly fill the required details to login")
+    }
+    
+    else{
+     /* let anchor = document.createElement('a');
+      let textNode = document.createTextNode("Login");
+      anchor.appendChild(textNode);
+      anchor.href = "index.html";
+      document.getElementById("butt").appendChild(anchor);*/
+      location.href = "index.html"
+    }
+    
+  }
+
+</script>
     
   </body>
 </html>
