@@ -44,3 +44,9 @@ function pop() {
   
 }
 setTimeout(pop, 5000);
+
+function logout(){
+
+  alert("You've been Logged Out!")
+
+}
