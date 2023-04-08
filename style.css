@@ -97,6 +97,7 @@ li {
 .logo img {
   width: 60px;
   height: 60px;
+  
 }
 .logo {
   margin-left: 9px;
@@ -109,7 +110,7 @@ li {
   align-items: center;
 }
 
-.user:hover {
+.user a:hover {
   color: rgb(253, 74, 71);
 }
 .menu:hover {
@@ -133,16 +134,10 @@ li {
   padding: 5px;
   margin: 19px;
 }
-
 .user a{
   color: white;
   text-decoration: none;
 }
-
-.user a:hover {
-  color: rgb(253, 74, 71);
-}
-
 .menu {
   padding: 5px;
   margin: 9px;
@@ -238,12 +233,14 @@ li {
   cursor: pointer;
   position: absolute;
   top: 45%;
-  padding: 8px 18px;
+  padding: 6px 26px;
   font-size: 55px;
   color: rgb(245, 245, 245);
+  user-select: none;
+  
 }
 .arrow:hover {
-color: rgba(187, 184, 184, 0.771);
+  color: rgba(187, 184, 184, 0.771);
 }
 .next {
   right: 10px;
@@ -282,6 +279,7 @@ color: rgba(187, 184, 184, 0.771);
   background-color: rgba(58, 57, 57, 0.595);
   color: rgba(255, 255, 255, 0.705);
   transition: all 2.75ms ease-in-out;
+  
 }
 
 #right:hover {
@@ -311,7 +309,7 @@ color: rgba(187, 184, 184, 0.771);
 }
 .cont {
   padding: 6px;
-  margin-bottom: 35px;
+  margin-bottom: 45px;
   /* border: 2px solid red;*/
   height: 300px;
   width: 240px;
@@ -369,11 +367,11 @@ hr {
   width: 100px;
   height: 35px;
   color: white;
- background-image: linear-gradient(to bottom,  rgb(4, 82, 193) , rgb(194, 20, 151));
+  background-image: linear-gradient(to bottom,  rgb(4, 82, 193) , rgb(194, 20, 151));
   opacity: 0.8;
   border-radius: 15px;
   border: none;
-  
+ 
 }
 
 #fut:hover {
@@ -474,4 +472,24 @@ hr {
 .tat {
   position: relative;
   bottom: 30px;
+}
+
+.hola{
+  width: 40px;
+  height: 40px;
+  font-size: 21px;
+  text-align: center;
+  border-radius: 50px;
+  border: none;
+  position: relative;
+  top: -70px;
+  left: 15px;
+  background-color: rgb(32, 150, 241);
+  color: rgb(238, 235, 235);
+  cursor: pointer;
+}
+
+.hola:hover{
+  background-color: rgb(4, 124, 215);
+
 }
